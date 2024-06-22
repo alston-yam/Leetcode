@@ -13,5 +13,8 @@ for i in range(len(nums)):
         tracker = nums[i]
         count = 2
 
-nums = list(sorted(nums))
+l = sorted(nums)
+for i in range(len(l)):
+    nums[i] = l[i]
+
 print(nums)
